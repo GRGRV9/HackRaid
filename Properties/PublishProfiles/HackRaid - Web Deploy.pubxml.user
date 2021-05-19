@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Этот файл используется процессом публикации или упаковки вашего веб-проекта. Можно настроить поведение этого процесса,
+изменив этот файл MSBuild. Подробности см. на странице https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAaNi/u4o0EEifcp52wtx1/wAAAAACAAAAAAAQZgAAAAEAACAAAABy+UKH5gRoz8cCmMy54HYDTSNwyn6j8l8il6Ea3U0y5gAAAAAOgAAAAAIAACAAAACIUjvMwZjnpF4oo9bbPcnRGaxLzyi72LoRhOFIGDLIHIAAAACUzECZUmnnGTqxHfF34JL7jiB7XOmgl6pwF/So8pBsZoSmO9A6iKXIYiwe19hG1cvUmyWx/Ew2zQf8EeBNuyUzlyHFOUb4Cp2rc2rVryxkJg7ZtOPyQVHoInlgfgD6lPBN3JNbgmY80Uqf8uk1wIDqu8Hi5oWhlOuIhSh33X01I0AAAABQDMC8bvBKiyZ4t8h+MyjA757qazRP9XxiT0KXHPAf0/ZRN55HjZk+QNTZwPI8xd4fbOEaG2gFy5HcXDtRzb6Y</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:hackraiddbserver.database.windows.net,1433%3bInitial Catalog=HackRaid_db%3bUser Id=grgrv%40hackraiddbserver%3bPassword=Radio111</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="HackRaid.Data.ApplicationDbContext">
+      <Value>Data Source=tcp:hackraiddbserver.database.windows.net,1433%3bInitial Catalog=HackRaid_db%3bUser Id=grgrv%40hackraiddbserver%3bPassword=Radio111</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

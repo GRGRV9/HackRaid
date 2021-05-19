@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="HackRaid" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^E:\\VSRepos\\HackRaid\\obj\\Release\\net5\.0\\win-x86\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="HackRaid.Data.ApplicationDbContext" description="" value="Data Source=tcp:hackraiddbserver.database.windows.net,1433;Initial Catalog=HackRaid_db;User Id=grgrv@hackraiddbserver;Password=Radio111" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^E:\\VSRepos\\HackRaid\\obj\\Release\\net5\.0\\win-x86\\PubTmp\\EFSQLScripts\\HackRaid\.Data\.ApplicationDbContext\.sql$" />
+  </parameter>
+</parameters>
