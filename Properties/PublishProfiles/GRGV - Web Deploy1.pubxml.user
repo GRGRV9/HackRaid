@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Этот файл используется процессом публикации или упаковки вашего веб-проекта. Можно настроить поведение этого процесса,
+изменив этот файл MSBuild. Подробности см. на странице https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAaNi/u4o0EEifcp52wtx1/wAAAAACAAAAAAAQZgAAAAEAACAAAABM8X3xbyhgybCdF334BRS6Hnw+LWxkrysarV7s8+/WUwAAAAAOgAAAAAIAACAAAAAiEo4V0hRHxM/NPjx5wgZQCYEwJ2VhEWvQrDeVbJa+eIAAAADyRxr2C4TTermBPAXj0z++ojsLwei5MrSv5CpQvZNKF85d1weG2IafnbkCvE9bQxowoo8SMRCeHl5StUuQ8R5p0Ag/3liovHj+iguEeTqQQ4Me82q/RH6aTSKhmYJM7ifRxNvzI/6giOKlVxcgHfQR/qxGUAwr1bPf4Aenf+dlE0AAAAB+ZAFdUU7CBmHjZS2kD4dh3OdCYrHVWni2NL3rnQg5vo+/KnKuT8jEVbUfMQFiANneP477b8mC0kYzgaV8ZBc0</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <AzureDBConnectionStrings Include="Data Source=tcp:hackraiddbserver.database.windows.net,1433;Initial Catalog=HackRaid_db;User Id=grgrv@hackraiddbserver;Password=Radio111" />
+    <AzureDBConnectionStrings Include="Data Source=tcp:whipappdb.database.windows.net,1433;Initial Catalog=WhipApp_db;User Id=grgrv@whipappdb;Password=Radio111" />
+  </ItemGroup>
+</Project>

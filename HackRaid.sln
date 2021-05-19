@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackRaid", "HackRaid.csproj", "{BC16530B-DB58-4475-9AC0-23C3C930528B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC16530B-DB58-4475-9AC0-23C3C930528B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC16530B-DB58-4475-9AC0-23C3C930528B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC16530B-DB58-4475-9AC0-23C3C930528B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC16530B-DB58-4475-9AC0-23C3C930528B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {730DDC19-2ACF-4DBF-86D2-6259FAD45A14}
+	EndGlobalSection
+EndGlobal
