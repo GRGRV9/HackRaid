@@ -1,6 +1,8 @@
 E:\VSRepos\HackRaid\obj\Release\net5.0\win-x86\PubTmp\Out\HackRaid.exe
 E:\VSRepos\HackRaid\obj\Release\net5.0\win-x86\PubTmp\Out\wwwroot\css\site.css
 E:\VSRepos\HackRaid\obj\Release\net5.0\win-x86\PubTmp\Out\wwwroot\favicon.ico
+E:\VSRepos\HackRaid\obj\Release\net5.0\win-x86\PubTmp\Out\wwwroot\img\iconvk.png
+E:\VSRepos\HackRaid\obj\Release\net5.0\win-x86\PubTmp\Out\wwwroot\img\vk.png
 E:\VSRepos\HackRaid\obj\Release\net5.0\win-x86\PubTmp\Out\wwwroot\js\site.js
 E:\VSRepos\HackRaid\obj\Release\net5.0\win-x86\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 E:\VSRepos\HackRaid\obj\Release\net5.0\win-x86\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
